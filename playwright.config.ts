@@ -7,6 +7,7 @@ const config: PlaywrightTestConfig = {
     baseURL: "http://reqres.in",
     extraHTTPHeaders: {
       "Content-Type": "application/json",
+      "x-api-key": "reqres-free-v1",
     },
   },
 };
